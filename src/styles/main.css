@@ -1,0 +1,12 @@
+#movieContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie {
+    border: 1px dotted black;
+    width: 250px;
+    padding: 1em;
+    margin: 1em;
+}

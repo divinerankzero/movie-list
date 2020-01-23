@@ -35,6 +35,12 @@
             "title": "They Live",
             "releaseDate": "1988",
             "imdbLink": "https://www.imdb.com/title/tt0096256/"
+        },
+        {
+            "id": 7,
+            "title": "Demons",
+            "releaseDate": "1985",
+            "imdbLink": "https://www.imdb.com/title/tt0089013/"
         }
     ]
         
