@@ -10,13 +10,13 @@ fetch(movieURL)
 
 getMovies();
 
-const movieContainer = document.querySelector("#movieContainer")
+const movieContainer = document.querySelector("#movieContainer");
 
-const renderMovies = (moviesAry) => {
-    moviesAry.forEach(movie => {
-        console.log(movie.title)
-        movieContainer.innerHTML += movieFactory(movie)
-    });
+const renderMovies = (movies) => {
+    movies.forEach(movie => {
+        console.log(movie.title);
+        movieContainer.innerHTML += movieFactory(movie);
+    })
 }
 
 const movieFactory = (movie) => {
@@ -25,5 +25,5 @@ const movieFactory = (movie) => {
         <p> <strong>Movie Title:</strong> ${movie.title} </p>
         <p> <strong>Date:</strong> ${movie.releaseDate} </p>
     </article>
-    `
+    `;
 }
