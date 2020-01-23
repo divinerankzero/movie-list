@@ -11,6 +11,7 @@ const movieFactory = (movie) => {
     <article class="movie">
         <p> <strong>Movie Title:</strong> ${movie.title} </p>
         <p> <strong>Date:</strong> ${movie.releaseDate} </p>
+        <p> <strong>IMDB: </strong><a href="${movie.imdbLink}">Link</a> </p>
     </article>
     `;
 }
