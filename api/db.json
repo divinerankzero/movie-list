@@ -1,0 +1,41 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Thing",
+            "releaseDate": "1982",
+            "imdblink": "https://www.imdb.com/title/tt0084787/"
+        },
+        {
+            "id": 2,
+            "title": "Return of the Living Dead",
+            "releaseDate": "1985",
+            "imdbLink": "https://www.imdb.com/title/tt0089907/"
+        },
+        {
+            "id": 3,
+            "title": "Night of the Creeps",
+            "releaseDate": "1986",
+            "imdbLink": "https://www.imdb.com/title/tt0091630/"
+        }, 
+        {
+            "id": 4,
+            "title": "Videodrome",
+            "releaseDate": "1983",
+            "imdbLink": "https://www.imdb.com/title/tt0086541/"
+        }, 
+        {
+            "id": 5,
+            "title": "Aliens",
+            "releaseDate": "1986",
+            "imdbLink": "https://www.imdb.com/title/tt0090605/"
+        }, 
+        {
+            "id": 6,
+            "title": "They Live",
+            "releaseDate": "1988",
+            "imdbLink": "https://www.imdb.com/title/tt0096256/"
+        }
+    ]
+        
+}
