@@ -1,6 +1,4 @@
 const movieURL = "http://localhost:8088/movies"
-// TODO: Figure out how to keep apiKey elsewhere
-const apiKey = ""
 
 const getMovies = (URL) => {
     movieContainer.innerHTML = "";
@@ -8,7 +6,7 @@ const getMovies = (URL) => {
         .then(resp => resp.json())
         .then(movies => {
             movies.forEach(movie => {
-                fetch(`http://www.omdbapi.com/?i=${movie.imdbID}&apikey=${apiKey}`)
+                fetch(`http://www.omdbapi.com/?i=${movie.imdbID}&apikey=${config.apiKey}`)
                     .then(response => response.json())
                     .then(movieDetails => {
                         const rated = movieDetails.Rated;
